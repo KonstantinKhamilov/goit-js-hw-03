@@ -9,7 +9,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     .join(", ");
 
   if (maxLength === firstArray.length) {
-    return firstArray.join(", ");
+    return firstArray;
   } else if (maxLength > firstArray.length) {
     return newArray;
   }
